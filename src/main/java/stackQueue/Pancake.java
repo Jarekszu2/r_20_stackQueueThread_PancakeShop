@@ -1,0 +1,19 @@
+package stackQueue;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Pancake {
+
+    private String name;
+
+    private List<String> ingredients;
+
+    private double price;
+}
